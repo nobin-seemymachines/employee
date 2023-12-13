@@ -1,0 +1,108 @@
+.container {
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    /* background-color: green; */
+}
+
+.register-page {
+    width: 50%;
+    height: 50vh;
+    background-color: #fff;
+    border-radius: 0 8px 8px 0;
+}
+
+.register-page h2 {
+    text-transform: uppercase;
+    color: #0096C7;
+}
+
+.register-page form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 25px; */
+    padding: 50px;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.input-group label {
+    color: #414040;
+    font-weight: 600;
+}
+
+.password-grp .password,
+.password-grp .confirm-password {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.register-page form .password-grp .password span,
+.register-page form .password-grp .confirm-password span {
+    position: absolute;
+    top: 1.3em;
+    right: 0.4em;
+ 
+}
+
+.input-group input {
+    width: 32em;
+    height: 3em;
+    border: 1px solid rgb(173, 171, 171);
+    background: transparent;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.password-grp {
+    display: flex;
+    gap: 2em;
+}
+
+.register-page form .password-grp input {
+    width: 15em;
+}
+
+.register-page form .input-group span {
+    display: none;
+    color: red;
+    position: absolute;
+    top: 1.4em;
+    right: 2.5em;
+    font-size: 25px;
+}
+.register-page form p{
+    color:red;
+}
+
+
+.input-group p {
+    color: red;
+    font-size: small;
+    font-weight: 600;
+}
+
+form button {
+    width: 10em;
+    height: 3em;
+    font-size: 15px;
+    border: none;
+    background-color: #0096C7;
+    border-radius: 8px 0 8px 0;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+}

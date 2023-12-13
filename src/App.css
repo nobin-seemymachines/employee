@@ -1,0 +1,175 @@
+/* body */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ADE8F4;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+/* home page */
+.info {
+  width: 50%;
+  height: 50vh;
+  background-color: #0096C7;
+  border-radius: 8px 0 0 8px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2em;
+  padding: 50px;
+}
+
+.info h2 {
+  text-transform: uppercase;
+}
+
+.change-btn {
+  margin-top: 3em;
+}
+
+.change-btn button {
+  width: 10em;
+  height: 3em;
+  font-size: 15px;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 8px 0 8px 0;
+  color: #0077B6;
+  font-weight: 600;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+/* dashboard */
+.dashboard-container {
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 15px;
+  gap: 1em;
+}
+
+.navbar h2 {
+  margin-right: auto;
+  font-weight: 500;
+}
+
+.header {
+  background-color: #0096C7;
+  height: 15vh;
+  display: grid;
+  place-items: center;
+  color: #ffffff;
+}
+
+.header h1 {
+  /* font-size: 2.5em; */
+  font-weight: 400;
+
+}
+
+.navbar button {
+  width: auto;
+  height: 3em;
+  font-size: 14px;
+  border: none;
+  background-color: #0096C7;
+  border-radius: 5px 0 5px 0;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 12px;
+}
+
+.search-bar {
+  height: 12vh;
+  width: 100vw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 8px 2.5em;
+}
+
+.search-bar input {
+  height: 3.5em;
+  width: 28em;
+  border: 1px solid rgb(145, 144, 144);
+  border-radius: 5px;
+  padding-left: 15px;
+  outline: none;
+}
+
+
+.search-bar button {
+  width: 8em;
+  height: 3.4em;
+  font-size: 14px;
+  border: none;
+  background-color: #0096C7;
+  border-radius: 5px 0 5px 0;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 12px;
+}
+
+.employee-list {
+  width: 100vw;
+  padding: 8px 2.5em;
+}
+
+.employee-list table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-shadow: 0 0 4px #5f5f5f;
+}
+
+.employee-list table thead {
+  background-color: #0096C7;
+  color: #ffffff;
+}
+
+.employee-list table thead tr th:last-child{
+  text-align: center;
+  font-weight: 700;
+}
+
+.action-btn{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.employee-list table span, .edit-btn{
+  text-decoration: none;
+  color: #0096C7;
+  cursor: pointer;
+}
+
+.employee-list table th,
+.employee-list table td {
+  height: 5vh;
+  font-weight: 500;
+  text-align: left;
+  padding: 10px;
+}

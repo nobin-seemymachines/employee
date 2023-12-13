@@ -1,0 +1,84 @@
+/* login page */
+.container {
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    /* background-color: green; */
+}
+
+.login-page {
+    width: 50%;
+    height: 50vh;
+    background-color: #fff;
+    border-radius: 0 8px 8px 0;
+}
+
+.login-page h2 {
+    text-transform: uppercase;
+    color: #0096C7;
+}
+
+.login-page form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 25px; */
+    padding: 50px;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.input-group label {
+    color: #414040;
+    font-weight: 600;
+}
+
+.input-group input {
+    width: 32em;
+    height: 3em;
+    border: 1px solid rgb(173, 171, 171);
+    background: transparent;
+    border-radius: 5px;
+}
+
+.login-page form .input-group span {
+    color: red;
+    position: absolute;
+    top: 1.4em;
+    right: 2.5em;
+    font-size: 25px;
+}
+
+/* .input-group p {
+    color: red;
+    font-size: small;
+    font-weight: 600;
+} */
+
+.error-message{
+    color: red;
+    font-size: small;
+    font-weight: 600;
+
+}
+form button {
+    width: 10em;
+    height: 3em;
+    font-size: 15px;
+    border: none;
+    background-color: #0096C7;
+    border-radius: 8px 0 8px 0;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+}

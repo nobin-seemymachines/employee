@@ -1,0 +1,107 @@
+/* delete box */
+.delete-container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: grid;
+    place-content: center;
+    background: #00000042;
+}
+
+.delete-box {
+    width: 28vw;
+    height: 20vh;
+    margin-top: -10vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 10px 28px;
+    box-shadow: 0 0 4px #0096C7;
+    border-radius: 5px;
+}
+
+.delete-box h1 {
+    color: #0096C7;
+    font-weight: 500;
+}
+
+.delete-btn button {
+    width: 6em;
+    height: 3em;
+    font-size: 14px;
+    border: none;
+    background-color: #0096C7;
+    border-radius: 5px 0 5px 0;
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+
+.delete-box p {
+    color: red;
+}
+
+/* add or edit employee */
+.employee-detail {
+    width: 48vw;
+    background-color: #ffffff;
+    padding: 3em;
+}   
+
+.employe-header {
+    color: #0096C7;
+}
+
+.inputs-grouped {
+
+    margin-top: 1.5em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+
+}
+
+.inputs-grouped input {
+    width: 28em;
+}
+
+.input-grid-group {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.input-grid-group input {
+    width: 12em;
+}
+
+.input-grid-group .input-group span {
+    right: 1.5em;
+}
+
+
+.btn-group {
+    display: flex;
+    gap: 1em;
+}
+
+.close-btn {
+    font-size: medium;
+}
+
+.input-group span {
+    display: none;
+    color: red;
+    position: absolute;
+    top: 2.4em;
+    right: 2em;
+}
+
+.inputs-grouped p {
+    color: red;
+}
